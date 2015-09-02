@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8173.3" systemVersion="14E46" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8142"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8089"/>
+    </dependencies>
+    <scenes>
+        <!--A Title-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller title="A Title" id="AgC-eL-Hgc" customClass="InterfaceController">
+                    <items>
+                        <button width="1" alignment="left" title="Send Message" id="8PM-Oj-Ass">
+                            <connections>
+                                <action selector="sendMessageButtonPressed" destination="AgC-eL-Hgc" id="ooS-CO-NwA"/>
+                            </connections>
+                        </button>
+                        <group width="1" alignment="left" id="3JS-n7-FLC">
+                            <items>
+                                <button width="72" alignment="left" title="Yes" id="OQj-RH-3ma">
+                                    <connections>
+                                        <action selector="yesButtonPressed" destination="AgC-eL-Hgc" id="W7b-jS-REP"/>
+                                    </connections>
+                                </button>
+                                <button width="62" alignment="right" title="No" id="IpA-rY-g0z">
+                                    <connections>
+                                        <action selector="noButtonPressed" destination="AgC-eL-Hgc" id="G9T-r1-ihg"/>
+                                    </connections>
+                                </button>
+                            </items>
+                        </group>
+                        <label width="1" height="77" alignment="left" text="Reply" textAlignment="center" numberOfLines="5" id="OHQ-5p-Xvu"/>
+                    </items>
+                    <connections>
+                        <outlet property="replyLabel" destination="OHQ-5p-Xvu" id="azy-nw-bbP"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="535" y="472"/>
+        </scene>
+    </scenes>
+</document>

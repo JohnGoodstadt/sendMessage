@@ -28,7 +28,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>johngoodstadt.sendM</string>
+	<string>com.example.sendM</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>

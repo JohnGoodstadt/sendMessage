@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		524E60D51B94DC770038F21F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524E60D41B94DC770038F21F /* Main.storyboard */; };
+		524E60D71B94DCB80038F21F /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 524E60D61B94DCB80038F21F /* Interface.storyboard */; };
 		5289E92B1B94C4DC0044FBAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5289E92A1B94C4DC0044FBAF /* main.m */; };
 		5289E92E1B94C4DC0044FBAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5289E92D1B94C4DC0044FBAF /* AppDelegate.m */; };
 		5289E9311B94C4DC0044FBAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5289E9301B94C4DC0044FBAF /* ViewController.m */; };
-		5289E9341B94C4DC0044FBAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5289E9321B94C4DC0044FBAF /* Main.storyboard */; };
-		5289E9361B94C4DC0044FBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5289E9351B94C4DC0044FBAF /* Assets.xcassets */; };
 		5289E9391B94C4DC0044FBAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5289E9371B94C4DC0044FBAF /* LaunchScreen.storyboard */; };
 		5289E93E1B94C4DC0044FBAF /* sendM WatchKit App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 5289E93D1B94C4DC0044FBAF /* sendM WatchKit App.app */; };
-		5289E9441B94C4DC0044FBAF /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5289E9421B94C4DC0044FBAF /* Interface.storyboard */; };
-		5289E9461B94C4DC0044FBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5289E9451B94C4DC0044FBAF /* Assets.xcassets */; };
 		5289E94D1B94C4DC0044FBAF /* sendM WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 5289E94C1B94C4DC0044FBAF /* sendM WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		5289E9531B94C4DC0044FBAF /* InterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5289E9521B94C4DC0044FBAF /* InterfaceController.m */; };
 		5289E9561B94C4DC0044FBAF /* ExtensionDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5289E9551B94C4DC0044FBAF /* ExtensionDelegate.m */; };
 		5289E9581B94C4DC0044FBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5289E9571B94C4DC0044FBAF /* Assets.xcassets */; };
+		5289E9681B94C53F0044FBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5289E9671B94C53F0044FBAF /* Assets.xcassets */; };
+		5289E96A1B94C5820044FBAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5289E9691B94C5820044FBAF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,19 +65,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		524E60D41B94DC770038F21F /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		524E60D61B94DCB80038F21F /* Interface.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Interface.storyboard; sourceTree = "<group>"; };
 		5289E9261B94C4DC0044FBAF /* sendM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sendM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5289E92A1B94C4DC0044FBAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5289E92C1B94C4DC0044FBAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5289E92D1B94C4DC0044FBAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5289E92F1B94C4DC0044FBAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5289E9301B94C4DC0044FBAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5289E9331B94C4DC0044FBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		5289E9351B94C4DC0044FBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5289E9381B94C4DC0044FBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5289E93A1B94C4DC0044FBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5289E93D1B94C4DC0044FBAF /* sendM WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sendM WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5289E9431B94C4DC0044FBAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
-		5289E9451B94C4DC0044FBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5289E9471B94C4DC0044FBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5289E94C1B94C4DC0044FBAF /* sendM WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "sendM WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5289E9511B94C4DC0044FBAF /* InterfaceController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = InterfaceController.h; sourceTree = "<group>"; };
@@ -86,6 +84,8 @@
 		5289E9551B94C4DC0044FBAF /* ExtensionDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExtensionDelegate.m; sourceTree = "<group>"; };
 		5289E9571B94C4DC0044FBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5289E9591B94C4DC0044FBAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5289E9671B94C53F0044FBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5289E9691B94C5820044FBAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,8 +133,8 @@
 				5289E92D1B94C4DC0044FBAF /* AppDelegate.m */,
 				5289E92F1B94C4DC0044FBAF /* ViewController.h */,
 				5289E9301B94C4DC0044FBAF /* ViewController.m */,
-				5289E9321B94C4DC0044FBAF /* Main.storyboard */,
-				5289E9351B94C4DC0044FBAF /* Assets.xcassets */,
+				524E60D41B94DC770038F21F /* Main.storyboard */,
+				5289E9691B94C5820044FBAF /* Assets.xcassets */,
 				5289E9371B94C4DC0044FBAF /* LaunchScreen.storyboard */,
 				5289E93A1B94C4DC0044FBAF /* Info.plist */,
 				5289E9291B94C4DC0044FBAF /* Supporting Files */,
@@ -153,8 +153,8 @@
 		5289E9411B94C4DC0044FBAF /* sendM WatchKit App */ = {
 			isa = PBXGroup;
 			children = (
-				5289E9421B94C4DC0044FBAF /* Interface.storyboard */,
-				5289E9451B94C4DC0044FBAF /* Assets.xcassets */,
+				5289E9671B94C53F0044FBAF /* Assets.xcassets */,
+				524E60D61B94DCB80038F21F /* Interface.storyboard */,
 				5289E9471B94C4DC0044FBAF /* Info.plist */,
 			);
 			path = "sendM WatchKit App";
@@ -274,9 +274,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				524E60D51B94DC770038F21F /* Main.storyboard in Resources */,
 				5289E9391B94C4DC0044FBAF /* LaunchScreen.storyboard in Resources */,
-				5289E9361B94C4DC0044FBAF /* Assets.xcassets in Resources */,
-				5289E9341B94C4DC0044FBAF /* Main.storyboard in Resources */,
+				5289E96A1B94C5820044FBAF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +284,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5289E9461B94C4DC0044FBAF /* Assets.xcassets in Resources */,
-				5289E9441B94C4DC0044FBAF /* Interface.storyboard in Resources */,
+				524E60D71B94DCB80038F21F /* Interface.storyboard in Resources */,
+				5289E9681B94C53F0044FBAF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,28 +335,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5289E9321B94C4DC0044FBAF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5289E9331B94C4DC0044FBAF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5289E9371B94C4DC0044FBAF /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				5289E9381B94C4DC0044FBAF /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		5289E9421B94C4DC0044FBAF /* Interface.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5289E9431B94C4DC0044FBAF /* Base */,
-			);
-			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -447,7 +431,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "sendM WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = johngoodstadt.sendM.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sendM.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -461,7 +445,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = "sendM WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = johngoodstadt.sendM.watchkitapp.watchkitextension;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sendM.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -476,7 +460,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				IBSC_MODULE = sendM_WatchKit_Extension;
 				INFOPLIST_FILE = "sendM WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = johngoodstadt.sendM.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sendM.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -491,7 +475,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				IBSC_MODULE = sendM_WatchKit_Extension;
 				INFOPLIST_FILE = "sendM WatchKit App/Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = johngoodstadt.sendM.watchkitapp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sendM.watchkitapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -506,7 +490,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sendM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = johngoodstadt.sendM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sendM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -517,7 +501,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = sendM/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = johngoodstadt.sendM;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.sendM;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -541,6 +525,7 @@
 				5289E95E1B94C4DD0044FBAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5289E9601B94C4DD0044FBAF /* Build configuration list for PBXNativeTarget "sendM WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +534,7 @@
 				5289E9621B94C4DD0044FBAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5289E9641B94C4DD0044FBAF /* Build configuration list for PBXNativeTarget "sendM" */ = {
 			isa = XCConfigurationList;
@@ -557,6 +543,7 @@
 				5289E9661B94C4DD0044FBAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
